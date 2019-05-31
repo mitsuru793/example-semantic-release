@@ -1,5 +1,5 @@
 {
-  "repository": "git+https://github.com/mitsuru793/example-semantic-release.git",
+  "repository": "https://github.com/mitsuru793/example-semantic-release",
   "name": "example-semantic-release",
   "main": "index.js",
   "author": "mitsuru793 <mitsuru793@gmail.com>",
