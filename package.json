@@ -5,6 +5,9 @@
   "author": "mitsuru793 <mitsuru793@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/npm": "^5.1.7",
+    "@semantic-release/release-notes-generator": "^7.1.4",
     "semantic-release": "^15.13.12",
     "semantic-release-cli": "^5.1.1"
   },
