@@ -1,31 +1,24 @@
 language: node_js
-
 services:
-  - docker
-
+- docker
 node_js:
-  - 8
-
-# Trigger a push build on master and greenkeeper branches + PRs build on every branches
-# Avoid double build on PRs (See https://github.com/travis-ci/travis-ci/issues/1147)
+- 8
 branches:
   only:
-    - master
-    - /^greenkeeper.*$/
-
-# Retry install on fail to avoid failing a build on network/disk/external errors
+  - master
+  - "/^greenkeeper.*$/"
 install:
-  - travis_retry npm install
-
+- travis_retry npm install
 script:
-  - npm run test
-
+- npm run test
 after_success:
-  - npm run codecov
-
+- npm run codecov
 jobs:
   include:
-    - stage: release
-      node_js: lts/*
-      script:
-        - npm run semantic-release
+  - stage: release
+    node_js: lts/*
+    script:
+    - npm run semantic-release
+env:
+  global:
+    secure: ld94MLqr7hOHni4WZQ5s24XdSxN4iK4lB+z7r0lgWrnj4D0E9oRVwZLXxTvPCqkDlnIDvYNKig/Wc6Fda/iz+KtskMzUc5IQyOK8eh7bZu28bkZImrw5u4kspqYONUWW61Oj83cyYGskQqKMHTyizPlMubQf1apRVk4xk9Bb5z1aoYD4geBWXfs55unB3RTIsUSJBTid/xP8JHATnhecil1DPcI/dj+XJgKUPS3POlteiotySovccOD+Lvo7VM3EplsbSFjQ4IP4V+YulDRqtL7Zh7zceea4MbGy9CTEu7D0+Iu8y0JdFT1y/Daa8zGRuzP6OnZcnWl4WOR/6WBy00Yr/JgegXft/iOv589OMkZofeIPN+podnX4QksjFEhXSlC6cSAiGRXo794rxrGRyDhrn6TFBn+vp8Wtl0x+GY3omypJVF45QuKP9Dxloiu4FFwBdIwuud3EQddFZ7HE7Cy/N3ONbGih9mgNvEYIBR4tG4YPx99eyU0k8XG/q2pfUPteyx+z66splz7AXJ3B7Qy+HMtkmy5yFCK8Ok0vgdtjaYFpRv0SnFrsX7Cinq4kCXcppnd+Te2b6rsRcuYA6T9a8gUsAdKaDr/Z8yM+bdKp/lnlkKLxxEaxbF3ReK797p+NMtzrXuAxj0Mb4ex/+DGabprGEWD3k+IXJ76qU3E=
