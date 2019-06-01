@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.4...v1.1.5) (2019-06-01)
+
+
+### Bug Fixes
+
+* inject CHANGELOG ([6b37183](https://github.com/mitsuru793/example-semantic-release/commit/6b37183))
+
 これはすごいね！！
 
 ## [1.1.4](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.3...v1.1.4) (2019-06-01)
