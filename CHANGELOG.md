@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.5...v1.1.6) (2019-06-01)
+
+
+### Bug Fixes
+
+* lint ([0f83531](https://github.com/mitsuru793/example-semantic-release/commit/0f83531))
+
 OOOOOOo
 ## [1.1.5](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.4...v1.1.5) (2019-06-01)
 
