@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/mitsuru793/example-semantic-release/compare/v1.2.3...v1.2.4) (2019-06-02)
+
+
+### Bug Fixes
+
+* delete env ([52521ad](https://github.com/mitsuru793/example-semantic-release/commit/52521ad))
+
 ## [1.2.3](https://github.com/mitsuru793/example-semantic-release/compare/v1.2.2...v1.2.3) (2019-06-02)
 
 
