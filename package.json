@@ -24,6 +24,7 @@
   "scripts": {
     "semantic-release": "semantic-release",
     "test": "echo test testttttt!!!",
-    "lint": "eslint 'src/**/*.ts'"
+    "lint": "eslint 'src/**/*.ts'",
+    "build": "webpack"
   }
 }
