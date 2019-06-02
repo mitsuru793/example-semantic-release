@@ -1,3 +1,1 @@
-class User {
-  name: string;
-}
+class User {}
