@@ -7,6 +7,7 @@ install:
 script:
   - yarn run lint
   - yarn run test
+  - yarn global add codecov
 after_success:
   - yarn run codecov
 deploy:
