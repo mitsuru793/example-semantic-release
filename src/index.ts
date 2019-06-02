@@ -1,3 +1,2 @@
-export class SuperUser {
-  public name: string;
-}
+// @ts-ignore
+// console.log('Hello World')
