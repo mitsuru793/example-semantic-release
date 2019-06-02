@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.7...v1.1.8) (2019-06-02)
+
+
+### Bug Fixes
+
+* webpackを直した ([03a8bcb](https://github.com/mitsuru793/example-semantic-release/commit/03a8bcb))
+
 ## [1.1.7](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.6...v1.1.7) (2019-06-02)
 
 
