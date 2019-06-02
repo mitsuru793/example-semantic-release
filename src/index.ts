@@ -1,4 +1,4 @@
-class User {
-  public name: string;
-  public id: number;
+export class SuperUser {
+  public name: string
+  public id: number
 }
