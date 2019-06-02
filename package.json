@@ -4,6 +4,10 @@
   "main": "dist/index.js",
   "author": "mitsuru793 <mitsuru793@gmail.com>",
   "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/commit-analyzer": "^6.1.0",
