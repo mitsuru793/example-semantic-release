@@ -30,5 +30,8 @@
     "test": "echo test testttttt!!!",
     "lint": "eslint 'src/**/*.ts'",
     "build": "webpack"
+  },
+  "dependencies": {
+    "ts-loader": "^6.0.2"
   }
 }
