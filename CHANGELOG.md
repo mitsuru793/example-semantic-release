@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.9...v1.2.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* aoaoaoaoao ([7f3f662](https://github.com/mitsuru793/example-semantic-release/commit/7f3f662))
+
+
+### Features
+
+* rename SuperUser ([a54e9aa](https://github.com/mitsuru793/example-semantic-release/commit/a54e9aa))
+
 ## [1.1.9](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.8...v1.1.9) (2019-06-02)
 
 
