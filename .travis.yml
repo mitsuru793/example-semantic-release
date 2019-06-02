@@ -1,9 +1,7 @@
 language: node_js
-services:
-  - docker
 node_js:
   - stable
-  - 'lts/*'
+  - lts/*
 install:
   - travis_retry npm install
 script:
@@ -15,6 +13,3 @@ deploy:
   provider: script
   skip_cleanup: true
   script: yarn run build && yarn run semantic-release
-env:
-  global:
-    secure: YbByifDwW2nwTZi4g3WzOEnxO3avOld65cYf8t3ICKmrRJ88ee2jddQzr3kWCy/naAEVLZNIqqEtj7rvwLv3awb1eWQAWOauJwnsBy7HkSjeJlm8teYm8cO7+BwfrjPrZn5xBzZ5NCqgm49X3nLx/3u0B6+YIggpFU42erpsdtqsoVOY/0hkAFK566R0XXmYy/wOW9cVuJE+PEoiwBRfnoWQVW6ocaHfEdpQpsy8YGKysbhfZu2PPOony/L5tMD9tNFYddUZFnhOOFAK2/C+hdhx9ESBD5DgrfGfKpsrQ7uwFdRrOZhsyyxA/d7krk1nsekXYO9FrU+PpZS6xi73gFNDLm0ztyI+8XM7aPZapFKLFYKHvu/LpUnew2pFLUhn0AYdeK8ANJtJXlStwvc38NLrByLlxnbiywJCfQBYAfIMuJnKYYmjJ+rEbbFheIZ8l2gJiaqHqhkD/Ptzcv3AS8Zhiab5ObYady2hatWRmBCy0PQ2119qr3bvOiKGismzkBoraZo1qU3tyYlLcYrWGygOjfbc4l02/U+k65FYj6Lhm3WKc46R0DUnQxVxJnIA85WpzVVyxB0iE26fGe9+9EZ2nmgKyG9ebRZmvYbKpQDEh95AAooWOwCHb9Nz8SP3G2UYkjDtS4DT6Zy9GB2ab2aggbDVUBs5SExdIbvHkiU=
