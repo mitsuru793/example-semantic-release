@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/mitsuru793/example-semantic-release/compare/v1.2.0...v1.2.1) (2019-06-02)
+
+
+### Bug Fixes
+
+* testtste ([a65aa83](https://github.com/mitsuru793/example-semantic-release/commit/a65aa83))
+
 # [1.2.0](https://github.com/mitsuru793/example-semantic-release/compare/v1.1.9...v1.2.0) (2019-06-02)
 
 
