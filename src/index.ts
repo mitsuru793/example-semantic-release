@@ -1,3 +1,3 @@
 class User {
-  public name: string
+  public name: string;
 }
