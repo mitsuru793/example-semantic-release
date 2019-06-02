@@ -3,7 +3,7 @@ services:
   - docker
 node_js:
   - stable
-  - lts/*
+  - 'lts/*'
 install:
   - travis_retry npm install
 script:
