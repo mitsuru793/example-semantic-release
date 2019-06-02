@@ -3,10 +3,6 @@ services:
   - docker
 node_js:
   - 8
-branches:
-  only:
-    - master
-    - "/^greenkeeper.*$/"
 install:
   - travis_retry npm install
 script:
