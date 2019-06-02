@@ -2,7 +2,8 @@ language: node_js
 services:
   - docker
 node_js:
-  - 8
+  - stable
+  - lts/*
 install:
   - travis_retry npm install
 script:
