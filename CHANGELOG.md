@@ -1,3 +1,11 @@
+## [1.2.3](https://github.com/mitsuru793/example-semantic-release/compare/v1.2.2...v1.2.3) (2019-06-02)
+
+
+### Bug Fixes
+
+* envを消した ([ce5e621](https://github.com/mitsuru793/example-semantic-release/commit/ce5e621))
+* **dedede:** prefix test ([c099b5d](https://github.com/mitsuru793/example-semantic-release/commit/c099b5d))
+
 ## [1.2.2](https://github.com/mitsuru793/example-semantic-release/compare/v1.2.1...v1.2.2) (2019-06-02)
 
 
